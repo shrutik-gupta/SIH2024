@@ -1,0 +1,110 @@
+/* SignIn.css */
+body{
+    font-family: 'Trebuchet MS';
+}
+.sign-container {
+    /* max-width: 100%;  */
+    width: 50%; /*Full width up to the max-width */
+    margin: 0; /* Centercontainer horizontally and add vertical spacing */
+    padding: 10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* background:linear-gradient(to bottom , #6190E8,#A7BFE8); */
+    backdrop-filter: blur(5px); /* Adjust the blur amount */
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center; /* Center align text inside container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  
+  h2 {
+    color: #333;
+    font-size: 28px;
+    margin: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #111010;
+  }
+  
+  input {
+    padding: 12px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    outline: none;
+  }
+
+  input::placeholder{
+    font-family: 'Trebuchet MS';
+    color: rgba(245, 222, 179, 0.542);
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #f7f5f7;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%; /* Full width of the container */
+    margin: auto;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out ;
+  }
+  
+  button:hover {
+    background-color: #d4487e;
+    box-shadow: 0 5px 8px rgba(112, 164, 196, 0.3);
+    transform: scale(1.05);
+  }
+
+  #sign-up{
+    margin-top: 5%;
+    color: black;
+    font-weight:bold;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+
+  #sign-up:hover{
+    color: #007bff;
+  }
+  
+  .message {
+    margin-top: 15px;
+    color: #d9534f;
+    font-size: 16px;
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  

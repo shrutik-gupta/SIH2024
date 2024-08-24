@@ -1,0 +1,13 @@
+/* Global styles */
+body {
+  font-family: 'Trebuchet MS', sans-serif; /* Replace with your desired font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply font to all elements */
+* {
+  box-sizing: border-box;
+  font-family: inherit; /* Inherit font-family from the body */
+}

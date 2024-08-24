@@ -1,0 +1,71 @@
+.itm-lst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#item-list{
+    margin-bottom: 10%;
+    font-size: 2.5rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+
+.grid-item:hover{
+    background-color:#676a68;
+    transform: scale(1.05);
+}
+
+.grid-item.selected {
+    background-color: #4caf50;
+    color: white;
+}
+
+.slct{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.itm{
+    display: flex;
+    gap: 30px;
+}
+
+
+.btn-confirm {
+   
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #f7f5f7;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out ;
+  }
+  
+  .btn-confirm:hover {
+    background-color: #d4487e;
+    box-shadow: 0 5px 8px rgba(112, 164, 196, 0.3);
+    transform: scale(1.05);
+  }
